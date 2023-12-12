@@ -1,0 +1,54 @@
+body{
+    background-color:aliceblue;
+}
+
+
+h1 {
+        background-color:palevioletred;
+        clear: both;
+    }
+
+h2{
+    background-color:aqua
+    
+}
+h3{
+    background-color: chartreuse
+}
+img{
+    width:380px;
+    height: 250px;
+    float: left;
+    float:none;
+    
+}
+
+.column.side{
+    width: 33.33%;
+    float: left;
+}
+.column.middle{
+    width:33.33%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px){
+    .column.side,.column.middle{
+        width: 100%;
+    }
+}
+.janardhan{
+    padding: 0px;
+    text-align: center;
+    background: #636569;
+    margin-top: 20px;
+    color: white;
+}
